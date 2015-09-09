@@ -1,0 +1,20 @@
+//whynotboth.gif
+@function gray($shade, $alpha: 1){
+    $color: '';
+    @if $alpha < 1 {
+        $color: rgba($shade, $shade, $shade, $alpha);
+    } @else {
+        $color: rgb($shade, $shade, $shade);
+    }
+    @return $color;
+}
+
+@function grey($shade, $alpha:1){
+    $color: '';
+    @if $alpha < 1 {
+        $color: rgba($shade, $shade, $shade, $alpha);
+    } @else {
+        $color: rgb($shade, $shade, $shade);
+    }
+    @return $color;
+}

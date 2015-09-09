@@ -1,0 +1,21 @@
+{
+    "name": "[insoles]",
+    "description": "Basic project boilerplate to make setting up a project more comfortable",
+    "version": "0.1.1",
+    "author": "Josh <josh.compton@gmail.com.com>",
+    "homepage": "http://github.com/joshdcomp/insoles",
+    "repository": {
+        "type": "git",
+        "url": "[git@github.com:joshdcomp/insoles.git]"
+    },
+    "dependencies": {
+        "grunt": "*",
+        "grunt-contrib-watch": "*",
+        "grunt-contrib-concat": "*",
+        "grunt-contrib-sass": "*",
+        "grunt-contrib-uglify": "*",
+        "grunt-autoprefixer": "*",
+        "grunt-svgstore": "*"
+    },
+    "engine": "node *"
+}
