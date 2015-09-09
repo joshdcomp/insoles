@@ -12,6 +12,7 @@ body{
     background-color: $c-body-bg;
     font-size: 16px;
     //set smartquotes for the rest of the stylesheet
+    width: $d-body-width;
     quotes: "“" "”" "‘" "’";
 }
 
